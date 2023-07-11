@@ -32,3 +32,44 @@ color: rgba(39, 39, 39, 0.60);
 font-size: 18px;
 font-weight: 400;
 }
+.banner{
+    background-color: rgba(229, 84, 115, 0.10);
+    width-fixed: 1920px;
+    height-fixed: 850px;
+    flex-shrink: 0;
+    display: flex;
+    align-items: center;
+    padding: 30px 2400px 0px 150px;
+    justify-content: space-between;
+}
+.banner .tulip{
+    width: 635px;
+    height: 800px;
+    
+}
+.about{
+    padding: 220px;
+    background-color: white;
+    width: 1920px;
+    height: 4867px;
+    align-items: center;
+}
+.section-title{
+    color: black;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+    font-style: normal;
+    
+}
+.section-info{
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    display: flex;
+    width: 594px;
+    flex-direction: column;
+    margin: 0px 0px auto;
+}
