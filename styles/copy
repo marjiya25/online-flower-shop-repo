@@ -1,0 +1,139 @@
+  <main class="code-img">
+        
+        <div class="about">
+            <h2 class="section-title">Our Featured Flowers</h2>
+            <p class="section-info">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
+        </div>
+        
+        <div class="flower-img">
+                <div class="about-img">
+                   <img class="img-container1" src="..//online-flower-shop-repo/pngwing 6.png" alt="" srcset="">
+                   <p class="img-info">Pink Flower Tree</p>
+                </div>
+                <div class="about-img">
+                    <img class="img-container2" src="..//online-flower-shop-repo/pngwing 5.png" alt="" srcset="">
+                    <p class="img-info">Pink Flower Tree</p>
+                 </div>
+                 <div class="about-img">
+                    <img class="img-container3" src="..//online-flower-shop-repo/pngwing 7.png" alt="" srcset="">
+                    <p class="img-info">Pink Flower Tree</p>
+                 </div>
+        </div>
+
+        <section class="icon">
+            <div class="icon-1">
+               <img src="..//online-flower-shop-repo/Group 57.png" alt="" srcset=""> 
+               <p>Same Day Delivery. Click & Collect.</p>
+            </div>
+            <div class="icon-2">
+                <img src="..//online-flower-shop-repo/Group 58.png" alt="" srcset=""> 
+                <p>Fresh Flowers. Local Growers.</p>
+             </div>
+             <div class="icon-3">
+                <img src="..//online-flower-shop-repo/Group 59.png" alt="" srcset=""> 
+                <p>24/7 Free Support.</p>
+             </div>
+        </section>
+       
+    </main>
+    <div>
+        <div class="another-section">
+        
+            <h1 class="another-title">Hot Deal ! Sale Up To 25% <span color="red">Off</span></h1>
+            <h6 class="another-text">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</h6>
+            <button class="another-button">Sign up</button>
+            
+        </div>
+        <img class="vas" src="..//online-flower-shop-repo/pngwing 8.png" alt="" srcset="">
+    </div>
+
+
+
+
+    .about{
+        padding: 220px;
+        background-color: white;
+        width: 1920px;
+        height: 4867px;
+        margin: auto;
+    }
+    .section-title{
+        color: black;
+        text-align: center;
+        font-size: 40px;
+        font-weight: 800; 
+        margin-top: 200px;  
+    }
+    .section-info{
+        color: rgba(39, 39, 39, 0.60);
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 30px;
+        display: flex;
+        width: 594px;
+        flex-direction: column;
+        margin: auto;
+        text-align: center;
+    
+    }
+    
+    .img-container1{
+        border-radius: 300px 300px 0px 0px;
+        background: rgba(167, 33, 98, 0.15);
+        width: 464px;
+        height: 538px;
+        margin: right 50px; ;
+    }
+    .img-container2{
+        border-radius: 300px 300px 0px 0px;
+        background: rgba(5, 151, 160, 0.15);
+        width: 464px;
+        height: 538px;
+    }
+    
+    .img-container3{
+        border-radius: 300px 300px 0px 0px;
+        background: rgba(71, 125, 17, 0.15);
+        width: 464px;
+        height: 538px;
+    }
+    .flower-img{
+        display: flex;
+        background: white;
+        align-items: center;
+        background-color: white;
+    }
+    
+    .icon{
+        display: flex;
+        border-radius: 8px;
+        background: rgba(39, 39, 39, 0.05);
+        text-align: center;
+        width-fixed: 1440px;
+        height-fixed: 320px;
+        padding: 50px 240px;
+        gap: 10px;
+    }
+    .another-section{
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px 240px 0px 150px;
+    
+    }
+    .another-title{
+        color: rgba(39, 39, 39, 0.60);
+        text-align: center;
+        font-size: 18px;
+        font-weight: 400;
+        
+    }
+    .another-text{
+    display: flex;
+    width: 594px;
+    flex-direction: column;
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    }
