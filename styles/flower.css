@@ -1,15 +1,14 @@
 body{
-    font-family: 'Lato', sans-serif;  
+    font-family: 'Lato', sans-serif; 
+    width: 1920px;
+    height: 4867px;
 }
 .head{
 color: #272727;
-font-size: 80px;
+font-size: 40px;
 font-weight: 800;
 line-height: normal;
 display: flex;
-width: 708px;
-flex-direction: column;
-flex-shrink: 0;
 }
 .btn-primary{
     border: 0;
@@ -24,13 +23,13 @@ flex-shrink: 0;
     gap: 10px;
 }
 .quote{
-    display: flex;
-width: 634px;
-flex-direction: column;
-flex-shrink: 0;
-color: rgba(39, 39, 39, 0.60);
-font-size: 18px;
-font-weight: 400;
+  display: flex;
+  width: 634px;
+  flex-direction: column;
+  flex-shrink: 0;
+  color: rgba(39, 39, 39, 0.60);
+f ont-size: 18px;
+  font-weight: 400;
 }
 .banner{
     background-color: rgba(229, 84, 115, 0.10);
@@ -51,6 +50,7 @@ font-weight: 400;
     padding: 220px;
     background-color: white;
     margin: auto;
+   
     
 }
 .section-title{
@@ -96,10 +96,174 @@ font-weight: 400;
     background-color: white;
     gap: 20px;
     align-items: center;
+    margin: auto;
+    padding: 30px 220px;
     
 }
 .img-info{
     color: #272727;
     text-align: center;
     text-decoration-line: underline;
+}
+.shop-info{
+    align-items: center;
+    gap: 100px;
+    padding: 30px 600px;
+    height: 100px;
+    width: 280px;
+    background: rgba(39, 39, 39, 0.05);
+    border-radius: 8px;
+    margin: auto;
+    display: flex;
+}
+.item-link{
+    color: rgba(39, 39, 39, 0.80);
+    font-size: 20px;
+    justify-content: space-evenly;
+}
+.info-container{
+    width: 88px;
+    height: 88px;
+}
+.banner-2{
+    background-color: rgba(229, 84, 115, 0.10);
+    width: 1922px;
+    height: 620px;
+    flex-shrink: 0;
+    display: flex;
+    align-items: center;
+    padding: 20px 240px 0 160px;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+.head-2{
+    color: #272727;
+    font-size: 80px;
+    font-weight: 800;
+    line-height: normal;
+    display: flex; 
+}
+.quote-2{
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.btn-primary-2{
+    display: inline-flex;
+padding: 20px 43px;
+align-items: flex;
+gap: 10px;
+border-radius: 8px;
+background: #E55473;
+box-shadow: white;
+color: #FFF;
+font-size: 20px;
+font-weight: 700;
+margin-left: 400px;
+border: #E55473;
+}
+.off{
+    color: red;
+}
+.flower-list{
+    display: flex;
+    background: url(<path-to-image>), lightgray 50% / cover no-repeat;
+    background: url(<path-to-image>), lightgray 50% / cover no-repeat;
+    background: url(<path-to-image>), lightgray 50% / cover no-repeat;
+    background: url(<path-to-image>), lightgray 50% / cover no-repeat;
+    gap: 30px;
+    margin: auto;
+    align-items: center;
+    background-color: #FFF;
+    margin-left: 200px;
+    padding-top: 0;
+}
+.background-container{
+    background-image: url(..//Rectangle\ 9.png);
+    width: 1440px;
+    height: 449px;
+    border-radius: 8px;
+    text-align: center;
+    margin-left: 200px;
+}
+.heading{
+    color: #272727;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+    
+}
+.heading-2{
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+}
+.button-4{
+    display: flex;
+    width: 88px;
+    height: 27.429px;
+    border-radius: 8px;
+    background: #E55473;
+    width: 150px;
+    height: 64px;
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 700;
+    border: #FFF;
+    text-align: center;
+    display: flex;
+   
+}
+
+.text{
+    text-align: center;
+    margin-top: 30px;
+}
+.email-input{
+ display: flex;
+ align-items: center;
+}
+.style{
+    background-color: black;
+    width: 1922px;
+    height: 449px;
+    max-width: 100%;
+    margin-left: 10px;
+    text-align: center;
+}
+.footer-head{
+    
+    font-family: Lato;
+    font-weight: 800;
+    
+}.footer-body{
+    color: rgba(255, 255, 255, 0.90);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    display: flex;
+    width: 625px;
+    flex-direction: column;
+    flex-shrink: 0;
+    text-align: center;
+}
+.footer-copy{
+    color: rgba(255, 255, 255, 0.40);
+    text-align: center;
+    font-family: Lato;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.flower-2{
+    color:#E55473;
+}
+.flower-3{
+    color: #FFF;
 }
